@@ -1,0 +1,200 @@
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  /* background-color: #333; */
+  /* background-color: #020502; */
+/* background-image: url("https://www.transparenttextures.com/patterns/sprinkles.png"); */
+background-color: #020502;
+background-image: url("https://www.transparenttextures.com/patterns/squares.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+
+}
+.bh1 {
+  background-image: url('water-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#heading{
+  
+ color: white;
+ padding: 10px 100px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+/* .button{
+  text-align: center;
+  border-radius: 12px;
+  background-color: #4CAF50;  
+  border: none;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  right: 50%;
+}
+/* .button:hover{
+  color: black;
+  background-color: rgba(110, 103, 103, 0.719);
+} */
+
+#to,#e,#ls,#v,#l,#f,#t,#h{  
+font-size: 20px;
+border-left: 5px solid!important;
+background-color: #00000063!important;
+border: 1px solid rgba(1,10,0,.125);
+border-left-color: #497d0c!important;
+padding: 20px 25px;
+color: rgb(235, 226, 226)!important;
+text-decoration: dotted;
+text-align: center;
+
+}
+.firstfour{
+  padding-bottom: 80px ;
+  overflow: hidden;
+}
+
+.row{
+  margin-top: 15%;
+  margin-left:10% ;
+
+}
+
+
+/* #but{
+  padding: -10px 30px;
+} */
+/* .b1{
+ margin-top:0%;
+}
+.b2{
+  margin-top:0%;
+}
+.b3{
+
+  margin-top: %;
+  
+.b4{
+  margin-top:% ;
+  
+}  */
+ /* .b5{
+  padding-top: 120px;
+  
+}
+.b6{
+  
+  padding-top: 120px;
+}
+.b7{
+ 
+ padding-top: 120px;
+}
+.b8{
+  
+  padding-top: 120px;
+} */
+                       /* <<<<<<<<<<<  HOME PAGE CSS>>>>>>> */
+.menu1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  /* background-color: #333; */
+  /* background-color: #020502; */
+/* background-image: url("https://www.transparenttextures.com/patterns/sprinkles.png"); */
+/* background-color: #7d817d70;
+background-image: url("https://www.transparenttextures.com/patterns/squares.png"); */
+/* background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png"); */
+
+background-color: #03002b;
+background-image: url("https://www.transparenttextures.com/patterns/white-texture.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+
+}
+li .he1{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+li{
+ 
+  float:left;
+}
+
+li .he1:hover{
+  color: #497d0c;
+  background-color: black;
+  text-decoration: none;
+}
+
+#ho1{
+  background-image: url('7-climatechange.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 2% 5%;
+
+}
+#footer{
+  padding: 3% 45%;
+ text-align: center;
+  color: rgb(12, 8, 8);
+  position: absolute;
+  font-size: 20px;
+  background-color: #140b10af;
+background-image: url("https://www.transparenttextures.com/patterns/vichy.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+}
+.social-icon{
+  margin: 20px 5px;
+}
+.social-icon:hover{
+  color: aliceblue;
+}
+.container{
+  padding-top: 150px;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: #2e3942a6;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ margin-top: 50px;
+ border: black 2px solid ;
+  border-left: 30%;
+  border-right: 30%;
+  color: rgb(255, 253, 253);
+}
+#content{
+  padding: 5px;
+  line-height: 2.5;
+  font-family:  'Cambria';
+  font-size: 18px;
+  margin-top: -10%;
+}
+ .carousel-inner{
+   padding: 2% 10%;
+ } 
+ .img-fluid{
+   margin: 15%;
+   /* border-radius: 2rem; */
+ }
+ 

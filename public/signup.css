@@ -1,0 +1,55 @@
+.login-whole {
+    padding: 3% 37%;
+    padding-bottom: 2%;
+   
+}
+
+@media screen and (max-width: 425px) {
+    .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+}
+
+.card-wrapper {
+    width: 400px;
+    padding-top: 10%;
+    
+}
+/* .card-body{
+    text-align: center;
+} */
+#si{
+    background-image: url(photo-15.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#su{
+    background-image: url(photo-14.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.back{
+    text-align: center;
+    margin-top: 3%;
+}
+.buttonip{
+    text-align: center;
+    border-radius: 12px;
+    background-color: #170e69;  
+    border: none;
+    color: rgb(2, 1, 1);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+ }
+ .buttonip:hover{
+    
+    color: white;
+ }

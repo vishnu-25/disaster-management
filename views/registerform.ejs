@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="register.css">
+
+         <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        
+        <!-- Google fonts link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+  <title>home</title>
+</head>
+<body id="f1">
+    
+     <div id="heading">
+      <h1>DISASTER RELIEF FUND</h1>
+       <h2>PERSON DETIALS</h2>
+     </div>
+    
+        <!-- Register Form -->
+		<div class="form-wrapper"> <!-- Form-wrapper only for positioning -->
+			<form action="/registerform" method="post" class="fcorn-register container" id="myForm">
+				
+				<div class="row">
+					<p><input class="form-control" type="text" placeholder="First Name" id="fname" name="fname" required></p>
+					<p><input class="form-control" type="text" placeholder="Last Name" id="lname" name="lname"required></p>
+			
+				<p><input class="form-control" type="email" placeholder="Email Address" id="email" name="email" required>
+				</p>
+				<p><input class="form-control" type="number" placeholder="Phone number" id="pass"name ="pass" required>
+				</p>
+				<!-- <p><input class="form-control" type="password" placeholder="Verify Password" required></p> -->
+        <p>
+          <input type="date"class="form-control" placeholder="Date" id="date" name="date" required>
+        </p>
+					
+                <div id="gender" name="gender"><select class="form-control" >
+                  <option value="Male">Male</option>
+                  <option value="Women">Women</option>  
+                </select></div> 
+                    <p><input class="form-control" type="text" id="address" name="address" placeholder="Address" required></p>
+                    <p><input  class="form-control" type="text" id="city" name="city" placeholder="City" required></p>
+                    <p><input  class="form-control" type="text" id="country" name="country" placeholder="Country" required></p>
+                    <p id="hp">HOW MUCH MONEY DO YOU WHAT TO DONATE</p>
+                    <p><input class="form-control" type="text" id="amount" name="amount" placeholder="Amount"></p>
+			
+			   </div>
+				<!-- <p class="register-submit"><input type="submit" value="sumbit"></p> -->
+        <button type="submit" class="btn btn-outline-light" onclick="myFunction()">Submit</button>
+			</form>
+    </div>
+
+    <div>
+      <table id="myTable">
+        <tbody>
+          <tr>
+            <th>S.NO.</th>
+            <th>Date</th>
+            <th>Disaster</th>
+            <th>Amount</th>
+
+        </tr>
+        <% found.forEach((val) => { %>
+          <% if(uname == val.email) {%>
+          <tr>
+            <td>1</td>
+            
+            <td><%= val.date %></td>
+            <td><%= val.address %></td>
+            <td><%= val.amount %></td>
+
+        </tr>
+        <% } %>
+        <% }) %>
+    </tbody></table>
+    </div>
+
+
+    <div class="back">
+       <a href="/"><button class="button buttonrf">Back</button></a>
+      </div>
+    
+      <!-- <script>
+        var i=0;
+        function myFunction() {
+          var myform=document.getElementById("myForm");
+          var table = document.getElementById("myTable");
+          var row = table.insertRow(-1);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          var cell3 = row.insertCell(2);
+          var cell4 = row.insertCell(3);
+          var cell5 = row.insertCell(4);
+          var cell6 = row.insertCell(5);
+          var cell7 = row.insertCell(6);
+          console.log(myform);
+          i=i+1;
+          cell1.innerHTML = i;
+          cell2.innerHTML = document.getElementById("fname").value;
+          cell3.innerHTML = document.getElementById("lname").value;
+          cell4.innerHTML = document.getElementById("email").value;
+          cell5.innerHTML = document.getElementById("date").value;
+          cell6.innerHTML = document.getElementById("address").value;
+          cell7.innerHTML = document.getElementById("amount").value;
+          myform.reset();
+        }
+        </script> -->
+     
+</body>
+  </html>

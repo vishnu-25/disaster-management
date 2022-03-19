@@ -1,0 +1,49 @@
+#r1{
+    background-image: url('wp1954120-disaster-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ #r2{
+     text-align: center;
+     color: aliceblue;
+ }
+ .buttonrc{
+    text-align: center;
+    border-radius: 12px;
+    background-color: #535553;  
+    border: none;
+    color: rgb(2, 1, 1);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+ }
+ .buttonrc:hover{
+    
+    color: white;
+ }
+ .form-wapper{
+    border: rgb(212, 207, 207) 2px solid ;
+    border-left: 30%;
+    border-right: 30%;
+    text-align: center;
+    background-color: #53555349;
+
+ }
+ 
+ .bt2{
+     margin-bottom: 3%;
+ }
+ .back{
+    text-align: center;
+    margin-top: 2%;
+}
+.row{
+   padding-top: 10%;
+}
+.form-control{
+   padding: 2%;
+}
